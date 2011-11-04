@@ -60,6 +60,7 @@ Adobe.
 #- source
 %doc %{_texmfdistdir}/source/latex/refman/refman.dtx
 %doc %{_texmfdistdir}/source/latex/refman/refman.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -70,3 +71,5 @@ Adobe.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
