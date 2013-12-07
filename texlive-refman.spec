@@ -6,7 +6,7 @@
 # catalog-version 2.0e
 Name:		texlive-refman
 Version:	2.0e
-Release:	5
+Release:	6
 Summary:	Format technical reference manuals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/refman
