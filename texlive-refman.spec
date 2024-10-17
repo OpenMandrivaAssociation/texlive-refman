@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Format technical reference manuals
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/refman
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/refman
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/refman.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/refman.doc.r%{version}.tar.xz
